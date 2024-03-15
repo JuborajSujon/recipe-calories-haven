@@ -1,0 +1,143 @@
+[
+  {
+    "recipe_id": 1,
+    "recipe_name": "Chicken Stir-Fry",
+    "recipe_image": "https://i.ibb.co/4fJwdfp/chicken-stir-fry.jpg",
+    "short_description": "A delicious and easy-to-make chicken stir-fry.",
+    "ingredients": [
+      "550g chicken",
+      "120ml soy sauce",
+      "400g mushrooms",
+      "100g broccoli"
+    ],
+    "preparing_time": "30 min",
+    "calories": "320 calories"
+  },
+  {
+    "recipe_id": 2,
+    "recipe_name": "Vegetable Curry",
+    "recipe_image": "https://i.ibb.co/pLdCJjD/vegetable-curry-recipe.jpg",
+    "short_description": "A flavorful vegetarian curry with assorted vegetables.",
+    "ingredients": [
+      "300g mixed vegetables",
+      "200g coconut milk",
+      "100g curry paste",
+      "50g tofu"
+    ],
+    "preparing_time": "45 min",
+    "calories": "280 calories"
+  },
+  {
+    "recipe_id": 3,
+    "recipe_name": "Spaghetti Carbonara",
+    "recipe_image": "https://i.ibb.co/R75nXLF/Spaghetti-Carbonara.jpg",
+    "short_description": "Classic Italian pasta dish made with eggs, cheese, and pancetta.",
+    "ingredients": [
+      "400g spaghetti",
+      "150g pancetta",
+      "3 eggs",
+      "100g grated Parmesan cheese"
+    ],
+    "preparing_time": "25 min",
+    "calories": "380 calories"
+  },
+  {
+    "recipe_id": 4,
+    "recipe_name": "Grilled Salmon",
+    "recipe_image": "https://i.ibb.co/Z22cx9T/Grilled-Salmon.jpg",
+    "short_description": "Healthy and flavorful grilled salmon fillets.",
+    "ingredients": [
+      "4 salmon fillets",
+      "2 tbsp olive oil",
+      "1 lemon",
+      "Salt and pepper to taste"
+    ],
+    "preparing_time": "20 min",
+    "calories": "250 calories"
+  },
+  {
+    "recipe_id": 5,
+    "recipe_name": "Mushroom Risotto",
+    "recipe_image": "https://i.ibb.co/6P0wSvq/Mushroom-Risotto.jpg",
+    "short_description": "Creamy and comforting mushroom risotto.",
+    "ingredients": [
+      "300g Arborio rice",
+      "200g mushrooms",
+      "1 onion",
+      "1L vegetable broth"
+    ],
+    "preparing_time": "40 min",
+    "calories": "300 calories"
+  },
+  {
+    "recipe_id": 6,
+    "recipe_name": "Chocolate Chip Cookies",
+    "recipe_image": "https://i.ibb.co/bWbrtL6/Chocolate-Chip-Cookies.jpg",
+    "short_description": "Classic homemade chocolate chip cookies.",
+    "ingredients": [
+      "200g all-purpose flour",
+      "150g butter",
+      "100g brown sugar",
+      "150g chocolate chips"
+    ],
+    "preparing_time": "15 min",
+    "calories": "200 calories"
+  },
+  {
+    "recipe_id": 7,
+    "recipe_name": "Avocado Toast",
+    "recipe_image": "https://i.ibb.co/2vfsQ6n/Avocado-Toast.jpg",
+    "short_description": "Healthy and delicious avocado toast topped with various ingredients.",
+    "ingredients": [
+      "2 slices whole grain bread",
+      "1 ripe avocado",
+      "Tomato slices",
+      "Salt and pepper to taste"
+    ],
+    "preparing_time": "10 min",
+    "calories": "180 calories"
+  },
+  {
+    "recipe_id": 8,
+    "recipe_name": "Greek Salad",
+    "recipe_image": "https://i.ibb.co/pjVk6V5/Greek-Salad.jpg",
+    "short_description": "Fresh and flavorful Greek salad with tomatoes, cucumbers, olives, and feta cheese.",
+    "ingredients": [
+      "2 tomatoes",
+      "1 cucumber",
+      "1 red onion",
+      "100g feta cheese",
+      "50g olives"
+    ],
+    "preparing_time": "15 min",
+    "calories": "220 calories"
+  },
+  {
+    "recipe_id": 9,
+    "recipe_name": "Pasta Primavera",
+    "recipe_image": "https://i.ibb.co/g7xCbVR/Pasta-Primavera.jpg",
+    "short_description": "Light and colorful pasta dish with fresh vegetables and herbs.",
+    "ingredients": [
+      "300g pasta",
+      "Assorted vegetables (zucchini, bell peppers, cherry tomatoes)",
+      "2 cloves garlic",
+      "Fresh basil leaves"
+    ],
+    "preparing_time": "35 min",
+    "calories": "280 calories"
+  },
+  {
+    "recipe_id": 10,
+    "recipe_name": "Banana Bread",
+    "recipe_image": "https://i.ibb.co/qjn74qy/Banana-Bread.jpg",
+    "short_description": "Moist and delicious banana bread made with ripe bananas and warm spices.",
+    "ingredients": [
+      "3 ripe bananas",
+      "200g all-purpose flour",
+      "100g brown sugar",
+      "1 tsp baking powder"
+    ],
+    "preparing_time": "50 min",
+    "calories": "230 calories"
+  }
+]
