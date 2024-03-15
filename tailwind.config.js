@@ -13,6 +13,9 @@ export default {
         dark02: "#282828",
         dark06: "#878787",
       },
+      backgroundImage: {
+        "hero-image": "url('/src/assets/images/banner.jpeg')",
+      },
     },
   },
   plugins: [require("daisyui")],

@@ -1,10 +1,14 @@
 import "./App.css";
+import BannerContainer from "./components/Banner Container/BannerContainer";
 import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
     <>
-      <Navbar />
+      <section className="container mx-auto px-4">
+        <Navbar />
+        <BannerContainer />
+      </section>
     </>
   );
 }

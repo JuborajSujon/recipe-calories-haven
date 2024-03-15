@@ -1,13 +1,16 @@
 export default function Navbar() {
   return (
-    <section className="font-lexend">
+    <section className="font-lexend text-primary py-4">
       <div className="navbar bg-base-100">
         <div className="navbar-start">
           <div className="dropdown">
-            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+            <div
+              tabIndex={0}
+              role="button"
+              className="btn btn-ghost lg:hidden px-2 sm:px-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
+                className="h-5 w-5 sm:h-7 sm:w-7"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor">
@@ -36,10 +39,12 @@ export default function Navbar() {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">Flavor Haven</a>
+          <a className="btn btn-ghost text-lg pl-0 sm:text-2xl md:text-3xl font-bold">
+            Flavor Haven
+          </a>
         </div>
-        <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
+        <div className="navbar-center hidden lg:flex ">
+          <ul className="menu menu-horizontal px-1 text-base opacity-60">
             <li>
               <a>Home</a>
             </li>
@@ -54,29 +59,31 @@ export default function Navbar() {
             </li>
           </ul>
         </div>
-        <div className="navbar-end">
-          <div className="form-control relative">
-            <input
-              type="text"
-              placeholder="Search"
-              className="input w-24 md:w-auto pl-14 bg-[#F3F3F4] rounded-full "
-            />
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6 absolute translate-y-1/2 left-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor">
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+        <div className="navbar-end space-x-3">
+          <div className="hidden sm:block">
+            <div className="form-control relative ">
+              <input
+                type="text"
+                placeholder="Search"
+                className="input w-24 md:w-auto pl-14 bg-[#F3F3F4] rounded-full sm:min-w-56"
               />
-            </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-6 w-6 absolute translate-y-1/2 left-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                />
+              </svg>
+            </div>
           </div>
 
-          <div className="w-10 rounded-full">
+          <div className="w-10 h-10 rounded-full bg-secondary flex justify-center items-center hover:bg-[#35f3a3] hover:opacity-90">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
