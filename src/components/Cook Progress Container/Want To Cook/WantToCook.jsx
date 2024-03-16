@@ -11,7 +11,7 @@ export default function WantToCook({
       </h3>
       <div className="divider w-2/3 mx-auto"></div>
       <div className="overflow-x-auto">
-        <table className="table-auto w-full border-collapse">
+        <table className="table-auto w-full border-collapse text-center">
           {/* head */}
           <thead>
             <tr className="text-sm font-fira-sans text-dark06">
@@ -28,7 +28,7 @@ export default function WantToCook({
               return (
                 <tr
                   key={index}
-                  className="hover:bg-slate-100 text-sm *:px-3 *:py-2 *:border-b *:border-b-slate-200 font-fira-sans leading-6 ">
+                  className="hover:bg-slate-100 text-sm *:px-3 *:py-2 *:border-b *:border-b-slate-200 font-fira-sans leading-6 text-center">
                   <th>{index + 1}</th>
                   <td className="opacity-80">{recipe_name}</td>
                   <td className="opacity-80">{preparing_time}</td>
