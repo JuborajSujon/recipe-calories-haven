@@ -1,3 +1,4 @@
+import daisyui from "daisyui";
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
@@ -13,10 +14,7 @@ export default {
         dark02: "#282828",
         dark06: "#878787",
       },
-      backgroundImage: {
-        "hero-image": "url('/src/assets/images/banner.jpeg')",
-      },
     },
   },
-  plugins: [require("daisyui")],
+  plugins: [daisyui],
 };

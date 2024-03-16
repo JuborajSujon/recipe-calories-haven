@@ -17,7 +17,7 @@ export default function BannerContainer() {
               Step into a world of culinary delights at Flavor Haven, where
               every dish tells a story of flavor and passion. From savory
               classics to innovative creations, our menu is crafted to tantalize
-              your taste buds and leave you craving for more.
+              your taste buds.
             </p>
             <div className="flex flex-col sm:flex-row justify-center items-center gap-3 md:gap-5">
               <button className="py-2 px-6 md:py-3.5 md:px-9 lg:py-4 lg:px-12 font-bold text-sm md:text-base lg:text-xl border border-secondary bg-secondary text-primary rounded-full">
