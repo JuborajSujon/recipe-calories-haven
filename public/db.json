@@ -1,6 +1,6 @@
 [
   {
-    "recipe_id": 2,
+    "recipe_id": 1,
     "recipe_name": "Vegetable Curry",
     "recipe_image": "https://i.ibb.co/pLdCJjD/vegetable-curry-recipe.jpg",
     "short_description": "A flavorful vegetarian curry with assorted vegetables.",
@@ -14,7 +14,7 @@
     "calories": "280 calories"
   },
   {
-    "recipe_id": 3,
+    "recipe_id": 2,
     "recipe_name": "Spaghetti Carbonara",
     "recipe_image": "https://i.ibb.co/R75nXLF/Spaghetti-Carbonara.jpg",
     "short_description": "Classic Italian pasta dish made with eggs, cheese, and pancetta.",
@@ -28,7 +28,7 @@
     "calories": "380 calories"
   },
   {
-    "recipe_id": 4,
+    "recipe_id": 3,
     "recipe_name": "Grilled Salmon",
     "recipe_image": "https://i.ibb.co/Z22cx9T/Grilled-Salmon.jpg",
     "short_description": "Healthy and flavorful grilled salmon fillets.",
@@ -41,7 +41,7 @@
     "calories": "250 calories"
   },
   {
-    "recipe_id": 5,
+    "recipe_id": 4,
     "recipe_name": "Mushroom Risotto",
     "recipe_image": "https://i.ibb.co/6P0wSvq/Mushroom-Risotto.jpg",
     "short_description": "Creamy and comforting mushroom risotto.",
@@ -55,7 +55,7 @@
   },
 
   {
-    "recipe_id": 7,
+    "recipe_id": 5,
     "recipe_name": "Avocado Toast",
     "recipe_image": "https://i.ibb.co/2vfsQ6n/Avocado-Toast.jpg",
     "short_description": "Healthy and delicious avocado toast topped with various ingredients.",
@@ -69,7 +69,7 @@
     "calories": "180 calories"
   },
   {
-    "recipe_id": 8,
+    "recipe_id": 6,
     "recipe_name": "Greek Salad",
     "recipe_image": "https://i.ibb.co/pjVk6V5/Greek-Salad.jpg",
     "short_description": "Fresh and flavorful Greek salad with tomatoes, cucumbers, olives, and feta cheese.",
@@ -84,7 +84,7 @@
     "calories": "220 calories"
   },
   {
-    "recipe_id": 9,
+    "recipe_id": 7,
     "recipe_name": "Pasta Primavera",
     "recipe_image": "https://i.ibb.co/g7xCbVR/Pasta-Primavera.jpg",
     "short_description": "Light and colorful pasta dish with fresh vegetables and herbs.",
@@ -98,7 +98,7 @@
     "calories": "280 calories"
   },
   {
-    "recipe_id": 10,
+    "recipe_id": 8,
     "recipe_name": "Banana Bread",
     "recipe_image": "https://i.ibb.co/qjn74qy/Banana-Bread.jpg",
     "short_description": "Moist and delicious banana bread made with ripe bananas and warm spices.",

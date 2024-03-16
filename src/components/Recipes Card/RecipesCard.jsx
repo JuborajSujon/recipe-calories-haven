@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-export default function RecipesCard({ data }) {
+export default function RecipesCard({ data, handleAddToCook }) {
   const {
     recipe_name,
     recipe_image,
@@ -7,6 +7,7 @@ export default function RecipesCard({ data }) {
     ingredients,
     preparing_time,
     calories,
+    recipe_id,
   } = data;
   return (
     <section>
@@ -83,7 +84,9 @@ export default function RecipesCard({ data }) {
             </div>
           </div>
           <div className="">
-            <button className="btn bg-secondary text-lg font-medium text-primary rounded-full px-6 min-h-2 h-10">
+            <button
+              onClick={() => handleAddToCook(data)}
+              className="btn bg-secondary text-lg font-medium text-primary rounded-full px-6 min-h-2 h-10">
               Want to Cook
             </button>
           </div>
@@ -95,4 +98,5 @@ export default function RecipesCard({ data }) {
 
 RecipesCard.propTypes = {
   data: PropTypes.object.isRequired,
+  handleAddToCook: PropTypes.func.isRequired,
 };
