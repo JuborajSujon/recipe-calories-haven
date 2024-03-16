@@ -9,7 +9,7 @@ export default function RecipesContainer() {
   const [cookItems, setCookItems] = useState([]);
 
   useEffect(() => {
-    fetch("db.json")
+    fetch("/db.json")
       .then((res) => res.json())
       .then((data) => setCardData(data));
   }, []);

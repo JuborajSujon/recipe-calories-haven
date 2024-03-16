@@ -11,7 +11,7 @@ export default function BannerContainer() {
         <div className="hero-content text-center text-white">
           <div className="max-w-3xl">
             <h1 className="mb-5 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold">
-              Welcome to Flavor Haven: Indulge in Exquisite Flavors
+              Discover an exceptional cooking class tailored for you!
             </h1>
             <p className="mb-5">
               Step into a world of culinary delights at Flavor Haven, where

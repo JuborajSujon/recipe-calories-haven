@@ -40,7 +40,7 @@ export default function Navbar() {
             </ul>
           </div>
           <a className="btn btn-ghost text-lg pl-0 sm:text-2xl md:text-3xl font-bold">
-            Flavor Haven
+            Recipe Calories
           </a>
         </div>
         <div className="navbar-center hidden lg:flex ">
