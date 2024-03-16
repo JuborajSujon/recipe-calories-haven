@@ -7,7 +7,6 @@ export default function RecipesCard({ data, handleAddToCook }) {
     ingredients,
     preparing_time,
     calories,
-    recipe_id,
   } = data;
   return (
     <section>

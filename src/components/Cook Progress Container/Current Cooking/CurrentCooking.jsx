@@ -1,9 +1,13 @@
 import PropTypes from "prop-types";
 export default function CurrentCooking({ currentCookItems }) {
+  if (currentCookItems.length !== 0) {
+    console.log(currentCookItems);
+  }
+
   return (
     <div>
       <h3 className="text-dark02 sm:text-lg md:text-xl lg:text-2xl font-semibold text-center">
-        Currently Cooking : 5
+        Currently Cooking : {currentCookItems.length}
       </h3>
       <div className="divider w-2/3 mx-auto"></div>
       <div className="overflow-x-auto">
@@ -36,7 +40,7 @@ export default function CurrentCooking({ currentCookItems }) {
             <tr className="hover:bg-slate-100 text-sm *:px-3 *:py-2 *:border-b *:border-b-slate-200">
               <th></th>
               <td></td>
-              <th>Total Min = 20 min</th>
+              <th>Total Min = 10 min</th>
               <th>Total Calories = 300 calories</th>
             </tr>
           </tbody>

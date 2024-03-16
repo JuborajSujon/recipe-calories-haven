@@ -2,7 +2,8 @@ import { useState } from "react";
 import CurrentCooking from "./Current Cooking/CurrentCooking";
 import WantToCook from "./Want To Cook/WantToCook";
 import PropTypes from "prop-types";
-export default function CookProgressContainer({ cookItems }) {
+
+export default function CookProgressContainer({ cookItems, handleRemoveItem }) {
   const [currentCookItems, setCurrentCookItems] = useState([]);
 
   const handleCurrentCooking = (data) => {
@@ -12,8 +13,6 @@ export default function CookProgressContainer({ cookItems }) {
 
     if (!isExist) {
       setCurrentCookItems([...currentCookItems, data]);
-    } else {
-      console.log("Item Already Added");
     }
   };
   return (
@@ -22,6 +21,7 @@ export default function CookProgressContainer({ cookItems }) {
         <WantToCook
           cookItems={cookItems}
           handleCurrentCooking={handleCurrentCooking}
+          handleRemoveItem={handleRemoveItem}
         />
         <CurrentCooking currentCookItems={currentCookItems} />
       </div>
@@ -31,4 +31,5 @@ export default function CookProgressContainer({ cookItems }) {
 
 CookProgressContainer.propTypes = {
   cookItems: PropTypes.array.isRequired,
+  handleRemoveItem: PropTypes.func.isRequired,
 };

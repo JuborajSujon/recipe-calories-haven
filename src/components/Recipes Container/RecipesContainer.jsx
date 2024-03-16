@@ -24,11 +24,19 @@ export default function RecipesContainer() {
     }
   };
 
+  const handleRemoveItem = (id) => {
+    const newCookItems = cookItems.filter((item) => item.recipe_id != id);
+    setCookItems(newCookItems);
+  };
+
   return (
     <div className="flex flex-col gap-4 md:flex-row">
       <Toaster position="top-right" />
       <RecipesCards cardData={cardData} handleAddToCook={handleAddToCook} />
-      <CookProgressContainer cookItems={cookItems} />
+      <CookProgressContainer
+        cookItems={cookItems}
+        handleRemoveItem={handleRemoveItem}
+      />
     </div>
   );
 }

@@ -1,5 +1,9 @@
 import PropTypes from "prop-types";
-export default function WantToCook({ cookItems, handleCurrentCooking }) {
+export default function WantToCook({
+  cookItems,
+  handleCurrentCooking,
+  handleRemoveItem,
+}) {
   return (
     <div>
       <h3 className="text-dark02 sm:text-lg md:text-xl lg:text-2xl font-semibold text-center">
@@ -31,7 +35,10 @@ export default function WantToCook({ cookItems, handleCurrentCooking }) {
                   <td className="opacity-80">{calories}</td>
                   <td>
                     <button
-                      onClick={() => handleCurrentCooking(item)}
+                      onClick={() => {
+                        handleCurrentCooking(item);
+                        handleRemoveItem(item.recipe_id);
+                      }}
                       className="btn bg-secondary text-sm font-medium text-primary rounded-full px-4 min-h-2 h-8">
                       Preparing
                     </button>
@@ -49,4 +56,5 @@ export default function WantToCook({ cookItems, handleCurrentCooking }) {
 WantToCook.propTypes = {
   cookItems: PropTypes.array.isRequired,
   handleCurrentCooking: PropTypes.func.isRequired,
+  handleRemoveItem: PropTypes.func.isRequired,
 };
