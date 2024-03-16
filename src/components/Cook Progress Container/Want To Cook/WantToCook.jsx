@@ -39,7 +39,7 @@ export default function WantToCook({
                         handleCurrentCooking(item);
                         handleRemoveItem(item.recipe_id);
                       }}
-                      className="btn bg-secondary text-sm font-medium text-primary rounded-full px-4 min-h-2 h-8">
+                      className="btn bg-secondary text-sm font-medium text-primary rounded-full px-4 min-h-2 h-8 hover:bg-[#77fec5]">
                       Preparing
                     </button>
                   </td>

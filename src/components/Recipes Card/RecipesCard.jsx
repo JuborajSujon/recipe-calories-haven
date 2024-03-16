@@ -85,7 +85,7 @@ export default function RecipesCard({ data, handleAddToCook }) {
           <div className="">
             <button
               onClick={() => handleAddToCook(data)}
-              className="btn bg-secondary text-lg font-medium text-primary rounded-full px-6 min-h-2 h-10">
+              className="btn bg-secondary text-lg font-medium text-primary rounded-full px-6 min-h-2 h-10 hover:bg-[#77fec5]">
               Want to Cook
             </button>
           </div>
