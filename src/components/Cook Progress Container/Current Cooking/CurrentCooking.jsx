@@ -1,7 +1,18 @@
 import PropTypes from "prop-types";
 export default function CurrentCooking({ currentCookItems }) {
+  let totalCalories = 0;
+  let totalTime = 0;
   if (currentCookItems.length !== 0) {
-    console.log(currentCookItems);
+    currentCookItems.forEach((item) => {
+      for (const price in item) {
+        if (price === "calories") {
+          totalCalories += parseInt(item[price]);
+        }
+        if (price === "preparing_time") {
+          totalTime += parseInt(item[price]);
+        }
+      }
+    });
   }
 
   return (
@@ -40,8 +51,8 @@ export default function CurrentCooking({ currentCookItems }) {
             <tr className="hover:bg-slate-100 text-sm *:px-3 *:py-2 *:border-b *:border-b-slate-200">
               <th></th>
               <td></td>
-              <th>Total Min = 10 min</th>
-              <th>Total Calories = 300 calories</th>
+              <th>Total Min = {totalTime} min</th>
+              <th>Total Calories = {totalCalories} calories</th>
             </tr>
           </tbody>
         </table>
@@ -52,4 +63,6 @@ export default function CurrentCooking({ currentCookItems }) {
 
 CurrentCooking.propTypes = {
   currentCookItems: PropTypes.array.isRequired,
+  totalCalories: PropTypes.number,
+  totalTime: PropTypes.number,
 };
