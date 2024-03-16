@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function CurrentCooking() {
   return (
     <div>
@@ -8,7 +6,7 @@ export default function CurrentCooking() {
       </h3>
       <div className="divider w-2/3 mx-auto"></div>
       <div className="overflow-x-auto">
-        <table className="table-auto w-full border-collapse">
+        <table className="table-fixed border-collapse">
           {/* head */}
           <thead>
             <tr className="text-sm font-fira-sans text-dark06">
