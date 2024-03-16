@@ -1,6 +1,7 @@
 import "./App.css";
 import BannerContainer from "./components/Banner Container/BannerContainer";
 import Navbar from "./components/Navbar/Navbar";
+import RecipesContainer from "./components/Recipes Container/RecipesContainer";
 import SectionTitle from "./components/Section Title/SectionTitle";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
         <Navbar />
         <BannerContainer />
         <SectionTitle />
+        <RecipesContainer />
       </section>
     </>
   );
