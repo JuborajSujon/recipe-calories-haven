@@ -20,10 +20,10 @@ export default function BannerContainer() {
               your taste buds.
             </p>
             <div className="flex flex-col sm:flex-row justify-center items-center gap-3 md:gap-5">
-              <button className="py-2 px-6 md:py-3.5 md:px-9 lg:py-4 lg:px-12 font-bold text-sm md:text-base lg:text-xl border border-secondary bg-secondary text-primary rounded-full">
+              <button className="py-2 px-6 md:py-3.5 md:px-9 lg:py-4 lg:px-12 font-bold text-sm md:text-base lg:text-xl border border-secondary bg-secondary text-primary rounded-full hover:bg-[#77fec5]">
                 Explor Now
               </button>
-              <button className="py-2 px-4 md:py-3.5 md:px-6 lg:py-4 lg:px-8 font-bold text-sm md:text-base lg:text-xl border border-white bg-transparent text-white rounded-full">
+              <button className="py-2 px-4 md:py-3.5 md:px-6 lg:py-4 lg:px-8 font-bold text-sm md:text-base lg:text-xl border border-white bg-transparent text-white rounded-full hover:bg-secondary hover:border-secondary hover:text-primary">
                 Our Feedback
               </button>
             </div>
