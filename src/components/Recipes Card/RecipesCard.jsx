@@ -23,7 +23,7 @@ export default function RecipesCard() {
             <h2 className="text-dark02 font-lexend font-medium sm:text-lg">
               Intredients : 6
             </h2>
-            <ul className="text-dark06 font-fira-sans sm:text-lg leading-8 list-disc list-inside pl-4 pt-3">
+            <ul className="text-dark06 font-fira-sans  leading-6 list-disc list-inside pl-4 pt-3">
               <li>Lorem ipsum dolor</li>
               <li>Lorem ipsum dolor</li>
               <li>Lorem ipsum dolor</li>
