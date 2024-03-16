@@ -30,7 +30,7 @@ export default function WantToCook({
                   key={index}
                   className="hover:bg-slate-100 text-sm *:px-3 *:py-2 *:border-b *:border-b-slate-200 font-fira-sans leading-6 text-center">
                   <th>{index + 1}</th>
-                  <td className="opacity-80">{recipe_name}</td>
+                  <td className="opacity-80 text-left">{recipe_name}</td>
                   <td className="opacity-80">{preparing_time}</td>
                   <td className="opacity-80">{calories}</td>
                   <td>
