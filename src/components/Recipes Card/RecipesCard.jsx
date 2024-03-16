@@ -1,33 +1,41 @@
-export default function RecipesCard() {
+import PropTypes from "prop-types";
+export default function RecipesCard({ data }) {
+  const {
+    recipe_name,
+    recipe_image,
+    short_description,
+    ingredients,
+    preparing_time,
+    calories,
+  } = data;
   return (
     <section>
-      <div className=" border border-slate-300 shadow-xl rounded-2xl p-4 sm:p-6 ">
+      <div className=" border border-slate-300 shadow-xl rounded-2xl p-4 sm:p-6 lg:min-h-[770px] xl:min-h-[880px] flex flex-col justify-between">
         <figure className="rounded-2xl pb-4 sm:pb-6">
           <img
-            className="rounded-2xl"
-            src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+            className="rounded-2xl min-h-60 xl:min-h-80 2xl:min-h-96  object-cover"
+            src={recipe_image}
             alt="Shoes"
           />
         </figure>
-        <div className="">
+        <div className="flex flex-col grow justify-between ">
           <div className="space-y-4">
             <h2 className="text-dark02 font-lexend font-bold sm:text-xl">
-              Spaghetti Bolognese
+              {recipe_name}
             </h2>
             <p className="text-dark02 font-fira-sans leading-8">
-              Classic Italian pasta dish savory meat sausce.
+              {short_description.slice(0, 50)}
             </p>
           </div>
           <div className="divider"></div>
           <div>
             <h2 className="text-dark02 font-lexend font-medium sm:text-lg">
-              Intredients : 6
+              Intredients : {ingredients.length}
             </h2>
             <ul className="text-dark06 font-fira-sans  leading-6 list-disc list-inside pl-4 pt-3">
-              <li>Lorem ipsum dolor</li>
-              <li>Lorem ipsum dolor</li>
-              <li>Lorem ipsum dolor</li>
-              <li>Lorem ipsum dolor</li>
+              {ingredients.map((ingredient, index) => (
+                <li key={index}>{ingredient}</li>
+              ))}
             </ul>
           </div>
           <div className="divider"></div>
@@ -46,7 +54,7 @@ export default function RecipesCard() {
                   d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
                 />
               </svg>
-              <span>30 min</span>
+              <span>{preparing_time}</span>
             </div>
             <div className="flex items-center gap-1">
               <svg
@@ -71,10 +79,10 @@ export default function RecipesCard() {
                   </clipPath>
                 </defs>
               </svg>
-              <span>600 calories</span>
+              <span>{calories}</span>
             </div>
           </div>
-          <div>
+          <div className="">
             <button className="btn bg-secondary text-lg font-medium text-primary rounded-full px-6 min-h-2 h-10">
               Want to Cook
             </button>
@@ -84,3 +92,7 @@ export default function RecipesCard() {
     </section>
   );
 }
+
+RecipesCard.propTypes = {
+  data: PropTypes.object.isRequired,
+};

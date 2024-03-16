@@ -1,19 +1,5 @@
 [
   {
-    "recipe_id": 1,
-    "recipe_name": "Chicken Stir-Fry",
-    "recipe_image": "https://i.ibb.co/4fJwdfp/chicken-stir-fry.jpg",
-    "short_description": "A delicious and easy-to-make chicken stir-fry.",
-    "ingredients": [
-      "550g chicken",
-      "120ml soy sauce",
-      "400g mushrooms",
-      "100g broccoli"
-    ],
-    "preparing_time": "30 min",
-    "calories": "320 calories"
-  },
-  {
     "recipe_id": 2,
     "recipe_name": "Vegetable Curry",
     "recipe_image": "https://i.ibb.co/pLdCJjD/vegetable-curry-recipe.jpg",
@@ -36,7 +22,7 @@
       "400g spaghetti",
       "150g pancetta",
       "3 eggs",
-      "100g grated Parmesan cheese"
+      "100g grated cheese"
     ],
     "preparing_time": "25 min",
     "calories": "380 calories"
@@ -49,7 +35,6 @@
     "ingredients": [
       "4 salmon fillets",
       "2 tbsp olive oil",
-      "1 lemon",
       "Salt and pepper to taste"
     ],
     "preparing_time": "20 min",
@@ -63,26 +48,12 @@
     "ingredients": [
       "300g Arborio rice",
       "200g mushrooms",
-      "1 onion",
       "1L vegetable broth"
     ],
     "preparing_time": "40 min",
     "calories": "300 calories"
   },
-  {
-    "recipe_id": 6,
-    "recipe_name": "Chocolate Chip Cookies",
-    "recipe_image": "https://i.ibb.co/bWbrtL6/Chocolate-Chip-Cookies.jpg",
-    "short_description": "Classic homemade chocolate chip cookies.",
-    "ingredients": [
-      "200g all-purpose flour",
-      "150g butter",
-      "100g brown sugar",
-      "150g chocolate chips"
-    ],
-    "preparing_time": "15 min",
-    "calories": "200 calories"
-  },
+
   {
     "recipe_id": 7,
     "recipe_name": "Avocado Toast",
@@ -119,7 +90,7 @@
     "short_description": "Light and colorful pasta dish with fresh vegetables and herbs.",
     "ingredients": [
       "300g pasta",
-      "Assorted vegetables (zucchini, bell peppers, cherry tomatoes)",
+      "Assorted vegetables",
       "2 cloves garlic",
       "Fresh basil leaves"
     ],

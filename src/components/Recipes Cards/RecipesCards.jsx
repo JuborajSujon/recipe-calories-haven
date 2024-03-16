@@ -1,16 +1,7 @@
-import { useState } from "react";
+import PropTypes from "prop-types";
 import RecipesCard from "../Recipes Card/RecipesCard";
-import { useEffect } from "react";
 
-export default function RecipesCards() {
-  const [cardData, setCardData] = useState([]);
-
-  useEffect(() => {
-    fetch("db.json")
-      .then((res) => res.json())
-      .then((data) => setCardData(data));
-  }, []);
-
+export default function RecipesCards({ cardData }) {
   return (
     <div className="lg:w-3/5 grid grid-cols-1 lg:grid-cols-2 gap-4">
       {cardData.map((data) => (
@@ -19,3 +10,7 @@ export default function RecipesCards() {
     </div>
   );
 }
+
+RecipesCards.propTypes = {
+  cardData: PropTypes.array.isRequired,
+};
