@@ -7,7 +7,7 @@ import SectionTitle from "./components/Section Title/SectionTitle";
 function App() {
   return (
     <>
-      <section className="container mx-auto px-4 pb-16">
+      <section className="container mx-auto px-4 pb-16 bg-white">
         <Navbar />
         <BannerContainer />
         <SectionTitle />
